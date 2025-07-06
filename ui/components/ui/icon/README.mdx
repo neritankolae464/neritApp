@@ -1,0 +1,101 @@
+import { Story, Canvas, ArgsTable } from '@storybook/addon-docs';
+
+import Approve from './approve-icon.component';
+import InfoIcon from './info-icon.component';
+import InfoIconInverted from './info-icon-inverted.component';
+import Interaction from './interaction-icon.component';
+import Preloader from './preloader';
+import ReceiveIcon from './receive-icon.component';
+import SendIcon from './send-icon.component';
+import Sign from './sign-icon.component';
+import SunCheck from './sun-check-icon.component';
+import Swap from './swap-icon-for-list.component';
+
+# Icon
+
+A range of SVG icon components
+
+> 💡 Many icons have inconsistent props; standardization is needed.
+
+## Props
+
+<ArgsTable of={SunCheck} />
+
+## Usage
+
+### Size
+
+Use the `size` prop to change the icon size, adhering to an 8px grid (e.g., 16px, 24px, 32px).
+
+<Canvas>
+  <Story id="components-ui-icon--size-story" />
+</Canvas>
+
+### Color
+
+Use the `color` prop to set the icon color. Accepts any CSS value; prefer design token CSS variables.
+
+<Canvas>
+  <Story id="components-ui-icon--color" />
+</Canvas>
+
+### AriaLabel
+
+Use `ariaLabel` for icons without text for accessibility (e.g., back buttons).
+
+<Canvas>
+  <Story id="components-ui-icon--aria-label" />
+</Canvas>
+
+Will render:
+
+```html
+<svg width="24" height="24" fill="currentColor" aria-label="back"
+     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+   <path d="m335 113c8 8 8 22..."></path>
+</svg>
+```
+
+### ClassName
+
+Add additional classes via `className` for layout or positioning.
+
+# DEPRECATED ICONS (to update)
+
+## Approve
+<Canvas><Story id="components-ui-icon--approve-story"/></Canvas>
+<ArgsTable of={Approve} />
+
+## Sign
+<Canvas><Story id="components-ui-icon--sign-story"/></Canvas>
+<ArgsTable of={Sign} />
+
+## Swap
+<Canvas><Story id="components-ui-icon--swap-story"/></Canvas>
+<ArgsTable of={Swap} />
+
+## SendIcon
+<Canvas><Story id="components-ui-icon--send-icon-story"/></Canvas>
+<ArgsTable of={SendIcon} />
+
+## ReceiveIcon
+<Canvas><Story id="components-ui-icon--receive-icon-story"/></Canvas>
+<ArgsTable of={ReceiveIcon} />
+
+## Interaction
+<Canvas><Story id="components-ui-icon--interaction-story"/></Canvas>
+<ArgsTable of={Interaction} />
+
+## InfoIcon
+<Canvas><Story id="components-ui-index-on-infoiconstory"/></ Canvas >
+    < Args Table off = { infoicon } / >
+
+    ## infoiconinverted 
+        <
+        canvas >
+        <
+        storyid = " components - ui - icon -- info - icon - inverted - story " / >
+            <
+            /canvas> <
+                argstable off = { infoiconinverted }
+                />
