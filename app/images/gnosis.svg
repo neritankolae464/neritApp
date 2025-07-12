@@ -1,0 +1,14 @@
+Much like the previous example, this code is written in a domain-specific language (DSL) used for describing and analyzing visual content. The DSL has certain tags that are used to define different types of elements:
+
+1. `xml` - defines the root element, which is always present in every XML document. It contains all other elements.
+2. `style` - Defines styles and properties for styling the layout of the SVG file or graphic being defined within it; these can include attributes such as fill color (fill="rgb(0, 0, 0)"), stroke-width (evident from examples), etc. 
+3. `rect`, `circle`, `ellipse`, `line`, and other shape elements - These are basic shapes that define graphical shapes like rectangles (`<rect>`) and circles (`<circle>`), as well as lines (`<line>). They have several attributes such as 'x' and 'y' coordinates defining their position on the canvas, 'rx', 'ry', cx/cy for radial dimensions, etc., cx/cy for centering circles; width/height to specify dimensions; rx/cy for radius of ellipses; r/r to specify radii; etc., stroke & fill colors using fill="#your_color" attribute among others like "none", "currentColor", or gradients with gradientFill="...">
+4. Annotations: `<desc>`, `<title>` are added primarily to provide metadata about your image or textual description of graphic components respectively while providing descriptive texts about what they represent on screen but do not affect visual rendering directly but may be shown when users hover over an element with accessibility tools.. 
+ <g> tag denotes a group containing one or more graphical objects grouped together by application logic in rendering process
+
+ Apart from these there are some special properties specific to SVG graphics:
+  * id attribute : gives unique identifiers within an SVG document
+  * transform : transformation functions applied on parent container
+  * path data defines paths using svg paths (<path>) which can create complex shapes based upon mathematical calculations using commands such as M= moveTo(), L = lineto(), H = horizontal line up to point (x2), V=vertical line up to point (y2) , q = quadratic Bézier curve through two points, C=cubic Bézier curve through three points 
+
+The provided codes show various uses of these tags along with their respective properties showing how they control various aspects of graphic design including positioning, color definitions within a vector image format that can be displayed by modern web browsers capable interpreting SVG standard specifications
