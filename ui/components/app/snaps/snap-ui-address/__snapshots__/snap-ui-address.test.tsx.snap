@@ -1,0 +1,47 @@
+
+```
+<div>
+  <div class="mm-box snap-ui-renderer__address mm-box--display-flex mm-box--gap-2 mm-box--align-items-center" data-testid="snap-ui-address">
+    <div style="display: flex;">
+      <div style="border-radius: 50px; overflow: hidden; padding: 0; margin: 0; width: 32px; height: 32px; display: inline-block;">
+        <svg height="32" width="32">
+          <rect fill="#03475E" height="32" transform="" width="32"/>
+          </rect>
+          </svg>
+      </div>
+    </div>
+    <p class="mm-box mm-text mm-text--body-md mm-box--color-inherit">128Lkh3...Mp8p6</p>
+  </div>
+</div>
+
+<div>
+  <img alt="" src="" style=""/>
+</div>
+
+<div>
+  <img alt="" src="" style=""/>
+</div>
+
+<div class="">
+  
+</div>
+
+<div class="">
+  
+</div>
+
+<div class="">
+  
+</div>
+
+<div class="">
+  
+</div>
+
+<div class="">
+  
+</div>
+
+<div class="">
+  
+</div>
