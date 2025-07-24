@@ -1,0 +1,44 @@
+// Optimized code (assuming JSX/React)
+
+const SwitchNetworkConfirmation = ({ hasPendingTransactions }) => (
+  <div className="confirmation-page">
+    <div className="confirmation-page__content p-4">
+      <h3 className="text-xl font-normal text-center mb-2">
+        Allow this site to switch the network?
+      </h3>
+      <h6 className="text-sm text-center text-gray mb-6">
+        This will switch the selected network within neritApp to a previously added network:
+      </h6>
+      <div className="flex items-center justify-center mb-6 p-2 rounded border border-gray-light bg-gray-lighter">
+        <div className="avatar avatar--md avatar--favicon mr-[10px]">
+          {/* Favicon or icon */}
+        </div>
+        <span className="text-[13px] text-[#999]">https://test-dapp.neritapp.io</span>
+      </div>
+
+      <div className="flex justify items center">
+        <div className="network__switch flex items center justify space between w-[80%] mx auto mt 8 ">
+          <div className='network__switch--icon'>
+            {/* From Network Icon & Name */}
+          </div>
+          <div className='network__switch--indicator'>
+            →
+          </div> 
+          <div  className='network__switch--icon'>
+            {/* To Network Icon & Name */}
+          </ div>
+          
+
+       {hasPendingTransactions && ( 
+        < div classNam e ="callout callout--warning mt -4 "> 
+          Switching networks will cancel all pending confirmations 
+        </ div > 
+      )}
+
+        </ div > 
+      </ div > 
+    </ div > 
+    {/* Footer with buttons */}
+    ...
+  </ div > 
+); 
